@@ -9,6 +9,15 @@ from show_fan import *
 from search_artist_fans import *
 from menu import *
 
+
+def quickmath():
+	varx = intput(int("x: "))
+	vary = intput(int("y: "))
+	answyx = vary + varx
+	print (answyx)
+	
+quickmath()
+
 db = FansDb("ArtistsFans.db")
 
 '''for genre in db.genres():
