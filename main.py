@@ -9,6 +9,8 @@ from show_fan import *
 from search_artist_fans import *
 from menu import *
 
+from math import *
+
 db = FansDb("ArtistsFans.db")
 
 '''for genre in db.genres():
