@@ -11,8 +11,8 @@ from menu import *
 
 
 def quickmath():
-	varx = intput(int("x: "))
-	vary = intput(int("y: "))
+	varx = int(input("x: "))
+	vary = int(input("y: "))
 	answyx = vary + varx
 	print (answyx)
 	
