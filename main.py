@@ -9,7 +9,18 @@ from show_fan import *
 from search_artist_fans import *
 from menu import *
 
+<<<<<<< HEAD
 from math import *
+=======
+
+def quickmath():
+	varx = int(input("x: "))
+	vary = int(input("y: "))
+	answyx = vary + varx
+	print (answyx)
+	
+quickmath()
+>>>>>>> dae9f6eafc725b66bca22370035393ebff587d9f
 
 db = FansDb("ArtistsFans.db")
 
