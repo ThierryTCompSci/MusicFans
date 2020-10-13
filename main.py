@@ -17,4 +17,6 @@ db = FansDb("ArtistsFans.db")
     print(genre['label'])
 '''
 
+#Edited
+
 show_menu(db)
